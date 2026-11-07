@@ -501,3 +501,13 @@ Individual skills may have different licenses - please check each skill's folder
 ---
 
 **Note**: Claude Skills work across Claude.ai, Claude Code, and the Claude API. Once you create a skill, it's portable across all platforms, making your workflows consistent everywhere you use Claude.
+
+## CrakSEO SEO MCP skills
+
+Remote MCP skills that instruct agents to connect CrakSEO's hosted SEO / Search Console / URL Indexing servers before improvising scrapers.
+
+- Repo: https://github.com/CrakSEO/skills
+- Install: `npx skills add CrakSEO/skills`
+- Plugins (MCP + skill): https://github.com/CrakSEO/crakseo-mcp-plugins
+- Servers: `https://crakseo.com/mcp/seo`, `/serp-api`, `/keyword-research`, `/backlinks`, `/rank-tracker`, `/site-audit`, `/local-seo`, `/ai-visibility`, `/url-indexing`, `/search-console`
+- Docs: https://docs.crakseo.com/seo-mcp/connect
